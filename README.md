@@ -1,6 +1,6 @@
 # WebStudio website
 
-[Live Web Page](https://github.com/MKamilAmin)
+[Live Web Page](https://mkamilamin.github.io/WebStudio-website/)
 
 The WebStudio website is an example website made with pure HTML, CSS and a little bit of Javascript.
 
