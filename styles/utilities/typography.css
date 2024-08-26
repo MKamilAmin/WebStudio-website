@@ -1,0 +1,140 @@
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo--dark {
+    color: #2e2f42;
+}
+
+.logo--light {
+    color: #f4f4fd;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.cta-btn {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.subscribe-btn,
+.send-btn {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--clr-headings);
+}
+
+.subheading {
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--clr-headings);
+}
+
+.subheading--center {
+    text-align: center;
+}
+
+.body-text {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--clr-body-text);
+}
+
+.body-text--our-mission {
+    font-weight: 500;
+}
+
+.subheading--our-mission {
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 1.11111;
+    text-align: center;
+}
+
+.body-text--our-team {
+    text-align: center;
+}
+
+.body-text--footer {
+    color: #f4f4fd;
+}
+
+.subheading--footer {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+}
+
+.mobile-menu__nav-link {
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    color: var(--clr-headings);
+}
+
+.mobile-menu__address-link {
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--clr-body-text);
+    font-style: normal;
+}
+
+.modal__heading {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--clr-headings);
+}
+
+.modal__label {
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: var(--clr-helper-text);
+}
+
+.modal__label--privacy-policy-link {
+    line-height: 1.33333;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
+}

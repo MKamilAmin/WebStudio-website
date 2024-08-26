@@ -2,6 +2,12 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>WebStudio</title>
         <link rel="icon" type="image/x-icon" href="./assets/svg/favicon.svg" />
@@ -10,18 +16,20 @@
 
     <body>
         <header>
-            <div>
-                <nav>
-                    <a href="#">Web<span>Studio</span></a>
-                    <div>
+            <div class="container">
+                <nav class="nav">
+                    <a href="#" class="logo"
+                        >Web<span class="logo--dark">Studio</span></a
+                    >
+                    <a href="">
                         <svg height="24" width="24">
                             <use
                                 href="./assets/svg/sprite.svg#mobile-menu-toggle"
                             ></use>
                         </svg>
-                    </div>
+                    </a>
 
-                    <div>
+                    <div class="temporary">
                         <button>
                             <svg height="8" width="8">
                                 <use
@@ -31,20 +39,36 @@
                         </button>
 
                         <menu>
-                            <li><a href="">Studio</a></li>
-                            <li><a href="">Portfolio</a></li>
-                            <li><a href="">Constacts</a></li>
+                            <li>
+                                <a href="" class="mobile-menu__nav-link"
+                                    >Studio</a
+                                >
+                            </li>
+                            <li>
+                                <a href="" class="mobile-menu__nav-link"
+                                    >Portfolio</a
+                                >
+                            </li>
+                            <li>
+                                <a href="" class="mobile-menu__nav-link"
+                                    >Constacts</a
+                                >
+                            </li>
                         </menu>
 
                         <address>
                             <ul>
                                 <li>
-                                    <a href="tel:+110001111111"
+                                    <a
+                                        href="tel:+110001111111"
+                                        class="mobile-menu__address-link"
                                         >+11 (000) 111-11-11</a
                                     >
                                 </li>
                                 <li>
-                                    <a href="mailto:info@devstudio.com"
+                                    <a
+                                        href="mailto:info@devstudio.com"
+                                        class="mobile-menu__address-link"
                                         >info@devstudio.com</a
                                     >
                                 </li>
@@ -91,7 +115,7 @@
                         </ul>
                     </div>
 
-                    <div>
+                    <div class="temporary">
                         <menu>
                             <li><a href="">Studio</a></li>
                             <li><a href="">Portfolio</a></li>
@@ -117,387 +141,435 @@
             </div>
         </header>
 
-        <section>
-            <div class="container">
-                <h1>Effective Solutions for Your Business</h1>
-                <button>Order service</button>
-            </div>
-        </section>
+        <main>
+            <section>
+                <div class="container">
+                    <h1 class="hero-title">
+                        Effective Solutions for Your Business
+                    </h1>
+                    <button class="cta-btn">Order service</button>
+                </div>
+            </section>
 
-        <section>
-            <div class="container">
-                <ul>
-                    <li>
-                        <div>
-                            <svg height="64" width="64">
-                                <use
-                                    href="./assets/svg/sprite.svg#antenna-icon"
-                                ></use>
-                            </svg>
-                        </div>
-                        <h2>Strategy</h2>
-                        <p>
-                            Our goal is to identify the business problem to walk
-                            away with the perfect and creative solution.
-                        </p>
-                    </li>
-                    <li>
-                        <div>
-                            <svg height="64" width="64">
-                                <use
-                                    href="./assets/svg/sprite.svg#clock-icon"
-                                ></use>
-                            </svg>
-                        </div>
-                        <h2>Punctuality</h2>
-                        <p>
-                            Bring the key message to the brand's audience for
-                            the best price within the shortest possible time.
-                        </p>
-                    </li>
-                    <li>
-                        <div>
-                            <svg height="64" width="64">
-                                <use
-                                    href="./assets/svg/sprite.svg#laptop-icon"
-                                ></use>
-                            </svg>
-                        </div>
-                        <h2>Diligence</h2>
-                        <p>
-                            Research and confirm brands that present the
-                            strongest digital growth opportunities and minimize
-                            risk.
-                        </p>
-                    </li>
-                    <li>
-                        <div>
-                            <svg height="64" width="64">
-                                <use
-                                    href="./assets/svg/sprite.svg#astronaut-icon"
-                                ></use>
-                            </svg>
-                        </div>
-                        <h2>Technologies</h2>
-                        <p>
-                            Design practice focused on digital experiences. We
-                            bring forth a deep passion for problem-solving.
-                        </p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <div class="container">
-                <h2>Our Team</h2>
-                <ul>
-                    <li>
-                        <img
-                            src="./assets/images/mobile/mark.webp"
-                            alt="Mark Guerrero"
-                        />
-                        <h3>Mark Guerrero</h3>
-                        <p>Product Designer</p>
-                        <ul>
-                            <li>
-                                <a href="">
-                                    <svg height="16" width="16">
-                                        <use
-                                            href="./assets/svg/sprite.svg#instagram"
-                                        ></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <svg height="16" width="16">
-                                        <use
-                                            href="./assets/svg/sprite.svg#twitter"
-                                        ></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <svg height="16" width="16">
-                                        <use
-                                            href="./assets/svg/sprite.svg#facebook"
-                                        ></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <svg height="16" width="16">
-                                        <use
-                                            href="./assets/svg/sprite.svg#linkedin"
-                                        ></use>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li>
-                        <img
-                            src="./assets/images/mobile/tom.webp"
-                            alt="Tom Ford"
-                        />
-                        <h3>Tom Ford</h3>
-                        <p>Frontend Developer</p>
-                        <ul>
-                            <li>
-                                <a href="">
-                                    <svg height="16" width="16">
-                                        <use
-                                            href="./assets/svg/sprite.svg#instagram"
-                                        ></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <svg height="16" width="16">
-                                        <use
-                                            href="./assets/svg/sprite.svg#twitter"
-                                        ></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <svg height="16" width="16">
-                                        <use
-                                            href="./assets/svg/sprite.svg#facebook"
-                                        ></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <svg height="16" width="16">
-                                        <use
-                                            href="./assets/svg/sprite.svg#linkedin"
-                                        ></use>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li>
-                        <img
-                            src="./assets/images/mobile/camilia.webp"
-                            alt="Camila Garcia"
-                        />
-                        <h3>Camila Garcia</h3>
-                        <p>Marketing</p>
-                        <ul>
-                            <li>
-                                <a href="">
-                                    <svg height="16" width="16">
-                                        <use
-                                            href="./assets/svg/sprite.svg#instagram"
-                                        ></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <svg height="16" width="16">
-                                        <use
-                                            href="./assets/svg/sprite.svg#twitter"
-                                        ></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <svg height="16" width="16">
-                                        <use
-                                            href="./assets/svg/sprite.svg#facebook"
-                                        ></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <svg height="16" width="16">
-                                        <use
-                                            href="./assets/svg/sprite.svg#linkedin"
-                                        ></use>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li>
-                        <img
-                            src="./assets/images/mobile/daniel.webp"
-                            alt="Daniel Wilson"
-                        />
-                        <h3>Daniel Wilson</h3>
-                        <p>UI Designer</p>
-                        <ul>
-                            <li>
-                                <a href="">
-                                    <svg height="16" width="16">
-                                        <use
-                                            href="./assets/svg/sprite.svg#instagram"
-                                        ></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <svg height="16" width="16">
-                                        <use
-                                            href="./assets/svg/sprite.svg#twitter"
-                                        ></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <svg height="16" width="16">
-                                        <use
-                                            href="./assets/svg/sprite.svg#facebook"
-                                        ></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <svg height="16" width="16">
-                                        <use
-                                            href="./assets/svg/sprite.svg#linkedin"
-                                        ></use>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <div class="container">
-                <h2>Our Portfolio</h2>
-                <ul>
-                    <li>
-                        <img
-                            src="./assets/images/mobile/banking-app.webp"
-                            alt="banking app"
-                        />
-                        <h3>Banking App</h3>
-                        <p>App</p>
-                        <div>
-                            <p>
-                                14 Stylish and User-Friendly App Design Concepts
-                                · Task Manager App · Calorie Tracker App ·
-                                Exotic Fruit Ecommerce App · Cloud Storage App
+            <section>
+                <div class="container">
+                    <h2>Our Mission</h2>
+                    <ul>
+                        <li>
+                            <div class="temporary">
+                                <svg height="64" width="64">
+                                    <use
+                                        href="./assets/svg/sprite.svg#antenna-icon"
+                                    ></use>
+                                </svg>
+                            </div>
+                            <h3
+                                class="our-mission__subheading subheading subheading--our-mission"
+                            >
+                                Strategy
+                            </h3>
+                            <p class="body-text body-text--our-mission">
+                                Our goal is to identify the business problem to
+                                walk away with the perfect and creative
+                                solution.
                             </p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <img
-                            src="./assets/images/mobile/cashless-payment.webp"
-                            alt="Payment terminal and smartphone"
-                        />
-                        <h3>Cashless Payment</h3>
-                        <p>Marketing</p>
-                        <div>
-                            <p>
-                                14 Stylish and User-Friendly App Design Concepts
-                                · Task Manager App · Calorie Tracker App ·
-                                Exotic Fruit Ecommerce App · Cloud Storage App
+                        </li>
+                        <li>
+                            <div class="temporary">
+                                <svg height="64" width="64">
+                                    <use
+                                        href="./assets/svg/sprite.svg#clock-icon"
+                                    ></use>
+                                </svg>
+                            </div>
+                            <h3
+                                class="our-mission__subheading subheading subheading--our-mission"
+                            >
+                                Punctuality
+                            </h3>
+                            <p class="body-text body-text--our-mission">
+                                Bring the key message to the brand's audience
+                                for the best price within the shortest possible
+                                time.
                             </p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <img
-                            src="./assets/images/mobile/meditation-app.webp"
-                            alt="Laptop running meditation app"
-                        />
-                        <h3>Meditation App</h3>
-                        <p>App</p>
-                        <div>
-                            <p>
-                                14 Stylish and User-Friendly App Design Concepts
-                                · Task Manager App · Calorie Tracker App ·
-                                Exotic Fruit Ecommerce App · Cloud Storage App
+                        </li>
+                        <li>
+                            <div class="temporary">
+                                <svg height="64" width="64">
+                                    <use
+                                        href="./assets/svg/sprite.svg#laptop-icon"
+                                    ></use>
+                                </svg>
+                            </div>
+                            <h3
+                                class="our-mission__subheading subheading subheading--our-mission"
+                            >
+                                Diligence
+                            </h3>
+                            <p class="body-text body-text--our-mission">
+                                Research and confirm brands that present the
+                                strongest digital growth opportunities and
+                                minimize risk.
                             </p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <img
-                            src="./assets/images/mobile/taxi-service.webp"
-                            alt="Taxi driver"
-                        />
-                        <h3>Taxi Service</h3>
-                        <p>Marketing</p>
-                        <div>
-                            <p>
-                                14 Stylish and User-Friendly App Design Concepts
-                                · Task Manager App · Calorie Tracker App ·
-                                Exotic Fruit Ecommerce App · Cloud Storage App
+                        </li>
+                        <li>
+                            <div class="temporary">
+                                <svg height="64" width="64">
+                                    <use
+                                        href="./assets/svg/sprite.svg#astronaut-icon"
+                                    ></use>
+                                </svg>
+                            </div>
+                            <h3
+                                class="our-mission__subheading subheading subheading--our-mission"
+                            >
+                                Technologies
+                            </h3>
+                            <p class="body-text body-text--our-mission">
+                                Design practice focused on digital experiences.
+                                We bring forth a deep passion for
+                                problem-solving.
                             </p>
-                        </div>
-                    </li>
+                        </li>
+                    </ul>
+                </div>
+            </section>
 
-                    <li>
-                        <img
-                            src="./assets/images/mobile/screen-illustrations.webp"
-                            alt="Smartphone screen with illustrations"
-                        />
-                        <h3>Screen Illustrations</h3>
-                        <p>Design</p>
-                        <div>
-                            <p>
-                                14 Stylish and User-Friendly App Design Concepts
-                                · Task Manager App · Calorie Tracker App ·
-                                Exotic Fruit Ecommerce App · Cloud Storage App
+            <section>
+                <div class="container">
+                    <h2 class="heading">Our Team</h2>
+                    <ul>
+                        <li>
+                            <img
+                                src="./assets/images/mobile/mark.webp"
+                                alt="Mark Guerrero"
+                            />
+                            <h3 class="subheading subheading--center">
+                                Mark Guerrero
+                            </h3>
+                            <p class="body-text body-text--our-team">
+                                Product Designer
                             </p>
-                        </div>
-                    </li>
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <svg height="16" width="16">
+                                            <use
+                                                href="./assets/svg/sprite.svg#instagram"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg height="16" width="16">
+                                            <use
+                                                href="./assets/svg/sprite.svg#twitter"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg height="16" width="16">
+                                            <use
+                                                href="./assets/svg/sprite.svg#facebook"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg height="16" width="16">
+                                            <use
+                                                href="./assets/svg/sprite.svg#linkedin"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
 
-                    <li>
-                        <img
-                            src="./assets/images/mobile/online-courses.webp"
-                            alt="Smiling woman"
-                        />
-                        <h3>Online Courses</h3>
-                        <p>Marketing</p>
-                        <div>
-                            <p>
-                                14 Stylish and User-Friendly App Design Concepts
-                                · Task Manager App · Calorie Tracker App ·
-                                Exotic Fruit Ecommerce App · Cloud Storage App
+                        <li>
+                            <img
+                                src="./assets/images/mobile/tom.webp"
+                                alt="Tom Ford"
+                            />
+                            <h3 class="subheading subheading--center">
+                                Tom Ford
+                            </h3>
+                            <p class="body-text body-text--our-team">
+                                Frontend Developer
                             </p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <svg height="16" width="16">
+                                            <use
+                                                href="./assets/svg/sprite.svg#instagram"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg height="16" width="16">
+                                            <use
+                                                href="./assets/svg/sprite.svg#twitter"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg height="16" width="16">
+                                            <use
+                                                href="./assets/svg/sprite.svg#facebook"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg height="16" width="16">
+                                            <use
+                                                href="./assets/svg/sprite.svg#linkedin"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <img
+                                src="./assets/images/mobile/camilia.webp"
+                                alt="Camila Garcia"
+                            />
+                            <h3 class="subheading subheading--center">
+                                Camila Garcia
+                            </h3>
+                            <p class="body-text body-text--our-team">
+                                Marketing
+                            </p>
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <svg height="16" width="16">
+                                            <use
+                                                href="./assets/svg/sprite.svg#instagram"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg height="16" width="16">
+                                            <use
+                                                href="./assets/svg/sprite.svg#twitter"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg height="16" width="16">
+                                            <use
+                                                href="./assets/svg/sprite.svg#facebook"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg height="16" width="16">
+                                            <use
+                                                href="./assets/svg/sprite.svg#linkedin"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <img
+                                src="./assets/images/mobile/daniel.webp"
+                                alt="Daniel Wilson"
+                            />
+                            <h3 class="subheading subheading--center">
+                                Daniel Wilson
+                            </h3>
+                            <p class="body-text body-text--our-team">
+                                UI Designer
+                            </p>
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <svg height="16" width="16">
+                                            <use
+                                                href="./assets/svg/sprite.svg#instagram"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg height="16" width="16">
+                                            <use
+                                                href="./assets/svg/sprite.svg#twitter"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg height="16" width="16">
+                                            <use
+                                                href="./assets/svg/sprite.svg#facebook"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg height="16" width="16">
+                                            <use
+                                                href="./assets/svg/sprite.svg#linkedin"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <h2 class="heading">Our Portfolio</h2>
+                    <ul>
+                        <li>
+                            <img
+                                src="./assets/images/mobile/banking-app.webp"
+                                alt="banking app"
+                            />
+                            <h3 class="subheading">Banking App</h3>
+                            <p class="body-text">App</p>
+                            <div>
+                                <p class="temporary">
+                                    14 Stylish and User-Friendly App Design
+                                    Concepts · Task Manager App · Calorie
+                                    Tracker App · Exotic Fruit Ecommerce App ·
+                                    Cloud Storage App
+                                </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <img
+                                src="./assets/images/mobile/cashless-payment.webp"
+                                alt="Payment terminal and smartphone"
+                            />
+                            <h3 class="subheading">Cashless Payment</h3>
+                            <p class="body-text">Marketing</p>
+                            <div>
+                                <p class="temporary">
+                                    14 Stylish and User-Friendly App Design
+                                    Concepts · Task Manager App · Calorie
+                                    Tracker App · Exotic Fruit Ecommerce App ·
+                                    Cloud Storage App
+                                </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <img
+                                src="./assets/images/mobile/meditation-app.webp"
+                                alt="Laptop running meditation app"
+                            />
+                            <h3 class="subheading">Meditation App</h3>
+                            <p class="body-text">App</p>
+                            <div>
+                                <p class="temporary">
+                                    14 Stylish and User-Friendly App Design
+                                    Concepts · Task Manager App · Calorie
+                                    Tracker App · Exotic Fruit Ecommerce App ·
+                                    Cloud Storage App
+                                </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <img
+                                src="./assets/images/mobile/taxi-service.webp"
+                                alt="Taxi driver"
+                            />
+                            <h3 class="subheading">Taxi Service</h3>
+                            <p class="body-text">Marketing</p>
+                            <div>
+                                <p class="temporary">
+                                    14 Stylish and User-Friendly App Design
+                                    Concepts · Task Manager App · Calorie
+                                    Tracker App · Exotic Fruit Ecommerce App ·
+                                    Cloud Storage App
+                                </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <img
+                                src="./assets/images/mobile/screen-illustrations.webp"
+                                alt="Smartphone screen with illustrations"
+                            />
+                            <h3 class="subheading">Screen Illustrations</h3>
+                            <p class="body-text">Design</p>
+                            <div>
+                                <p class="temporary">
+                                    14 Stylish and User-Friendly App Design
+                                    Concepts · Task Manager App · Calorie
+                                    Tracker App · Exotic Fruit Ecommerce App ·
+                                    Cloud Storage App
+                                </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <img
+                                src="./assets/images/mobile/online-courses.webp"
+                                alt="Smiling woman"
+                            />
+                            <h3 class="subheading">Online Courses</h3>
+                            <p class="body-text">Marketing</p>
+                            <div>
+                                <p class="temporary">
+                                    14 Stylish and User-Friendly App Design
+                                    Concepts · Task Manager App · Calorie
+                                    Tracker App · Exotic Fruit Ecommerce App ·
+                                    Cloud Storage App
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
 
         <footer>
             <div class="container">
                 <div>
-                    <a href="">Web<span>Studio</span></a>
-                    <p>
+                    <a href="" class="logo"
+                        >Web<span class="logo--light">Studio</span></a
+                    >
+                    <p class="body-text body-text--footer">
                         Increase the flow of customers and sales for your
                         business with digital marketing & growth solutions.
                     </p>
                 </div>
 
                 <div>
-                    <h3>Social media</h3>
+                    <p class="subheading subheading--footer">Social media</p>
                     <ul>
                         <li>
                             <a href="">
@@ -539,10 +611,10 @@
                 </div>
 
                 <div>
-                    <h3>Subscribe</h3>
+                    <p class="subheading subheading--footer">Subscribe</p>
                     <form action="">
                         <input type="text" />
-                        <button type="submit">
+                        <button type="submit" class="subscribe-btn">
                             Subscribe<svg height="24" width="24">
                                 <use
                                     href="./assets/svg/sprite.svg#paper-plane"
@@ -554,18 +626,20 @@
             </div>
         </footer>
 
-        <div>
+        <div class="temporary">
             <div>
                 <button>
                     <svg height="8" width="8">
                         <use href="./assets/svg/sprite.svg#close-icon"></use>
                     </svg>
                 </button>
-                <p>Leave your contacts and we will call you back</p>
+                <p class="modal__heading">
+                    Leave your contacts and we will call you back
+                </p>
 
                 <form action="">
                     <div>
-                        <label for="name">Name</label>
+                        <label for="name" class="modal__label">Name</label>
                         <div>
                             <svg height="24" width="18">
                                 <use
@@ -577,7 +651,7 @@
                     </div>
 
                     <div>
-                        <label for="phone">Phone</label>
+                        <label for="phone" class="modal__label">Phone</label>
                         <div>
                             <svg height="24" width="18">
                                 <use
@@ -589,7 +663,7 @@
                     </div>
 
                     <div>
-                        <label for="email">Email</label>
+                        <label for="email" class="modal__label">Email</label>
                         <div>
                             <svg height="24" width="18">
                                 <use
@@ -601,7 +675,9 @@
                     </div>
 
                     <div>
-                        <label for="comment">Comment</label>
+                        <label for="comment" class="modal__label"
+                            >Comment</label
+                        >
                         <div>
                             <textarea
                                 id="comment"
@@ -612,13 +688,15 @@
 
                     <div>
                         <input type="checkbox" id="checkbox" required />
-                        <label for="checkbox"
+                        <label for="checkbox" class="modal__label"
                             >I accept the terms and conditions of the
-                            <a href="">Privacy Policy</a></label
+                            <a href="" class="modal__label--privacy-policy-link"
+                                >Privacy Policy</a
+                            ></label
                         >
                     </div>
 
-                    <button type="submit">Send</button>
+                    <button type="submit" class="send-btn">Send</button>
                 </form>
             </div>
         </div>
