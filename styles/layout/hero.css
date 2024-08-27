@@ -1,0 +1,23 @@
+.hero-section {
+    background-color: rgba(46, 47, 66, 0.7);
+    background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+        ),
+        url(../../assets/images/mobile/hero-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-section .container {
+    padding: 72px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+}
+
+.hero-title {
+    max-width: 13.5rem;
+}

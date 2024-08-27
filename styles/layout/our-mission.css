@@ -1,0 +1,13 @@
+.our-mission {
+    padding: 96px 0;
+}
+
+.our-mission__list {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.our-mission__subheading {
+    margin-bottom: 8px;
+}

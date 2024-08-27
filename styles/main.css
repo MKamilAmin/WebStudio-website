@@ -3,6 +3,9 @@
 @import url(./utilities/typography.css);
 
 @import url(./layout/header.css);
+@import url(./layout/hero.css);
+@import url(./layout/our-mission.css);
+@import url(./layout/our-team.css);
 
 body {
     font-family: var(--main-font);
