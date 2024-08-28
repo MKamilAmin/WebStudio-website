@@ -5,7 +5,7 @@
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-brand);
+    color: var(--clr-primary-brand);
 }
 
 .logo--dark {
@@ -25,22 +25,13 @@
     color: #fff;
 }
 
-.cta-btn {
+.btn {
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-}
-
-.subscribe-btn,
-.send-btn {
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
     text-align: center;
-    color: #fff;
 }
 
 .heading {
@@ -137,4 +128,13 @@
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
+}
+
+.footer__newsletter-input::placeholder {
+    font-weight: 300;
+    font-size: 0.75rem;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: white;
+    opacity: 0.6;
 }

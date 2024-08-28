@@ -7,7 +7,7 @@
     margin-bottom: 72px;
 }
 
-.our-team__list {
+.our-team__card-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

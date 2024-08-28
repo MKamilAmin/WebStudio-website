@@ -1,0 +1,28 @@
+.our-portfolio {
+    padding: 96px 0;
+}
+
+.our-portfolio__heading {
+    margin-bottom: 72px;
+}
+
+.our-portfolio__card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.our-portfolio__card {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+    background: white;
+}
+
+.our-portfolio__text-container {
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    padding: 32px 16px;
+}
+
+.our-portfolio__subheading {
+    margin-bottom: 8px;
+}

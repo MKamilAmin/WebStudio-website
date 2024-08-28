@@ -6,6 +6,10 @@
 @import url(./layout/hero.css);
 @import url(./layout/our-mission.css);
 @import url(./layout/our-team.css);
+@import url(./layout/our-portfolio.css);
+@import url(./layout/footer.css);
+
+@import url(./components/buttons.css);
 
 body {
     font-family: var(--main-font);
@@ -15,6 +19,16 @@ body {
     max-width: 320px;
     margin: 0 auto;
     padding: 0 16px;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 
 /* ---------!!!!!! TEMPORARY STYLES. REMOVE BEFORE FINAL RELEASE !!!!!!!------- */

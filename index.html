@@ -147,13 +147,13 @@
                     <h1 class="hero-title">
                         Effective Solutions for Your Business
                     </h1>
-                    <button class="cta-btn">Order service</button>
+                    <button class="btn">Order service</button>
                 </div>
             </section>
 
             <section class="our-mission">
                 <div class="container">
-                    <h2>Our Mission</h2>
+                    <h2 class="visually-hidden">Our Mission</h2>
                     <ul class="our-mission__list">
                         <li>
                             <div class="temporary">
@@ -238,7 +238,7 @@
             <section class="our-team">
                 <div class="container">
                     <h2 class="our-team__heading heading">Our Team</h2>
-                    <ul class="our-team__list">
+                    <ul class="our-team__card-list">
                         <li class="our-team__card">
                             <img
                                 src="./assets/images/mobile/mark.webp"
@@ -598,17 +598,25 @@
                 </div>
             </section>
 
-            <section>
+            <section class="our-portfolio">
                 <div class="container">
-                    <h2 class="heading">Our Portfolio</h2>
-                    <ul>
-                        <li>
+                    <h2 class="our-portfolio__heading heading">
+                        Our Portfolio
+                    </h2>
+                    <ul class="our-portfolio__card-list">
+                        <li class="our-portfolio__card">
                             <img
                                 src="./assets/images/mobile/banking-app.webp"
                                 alt="banking app"
                             />
-                            <h3 class="subheading">Banking App</h3>
-                            <p class="body-text">App</p>
+                            <div class="our-portfolio__text-container">
+                                <h3
+                                    class="our-portfolio__subheading subheading"
+                                >
+                                    Banking App
+                                </h3>
+                                <p class="body-text">App</p>
+                            </div>
                             <div>
                                 <p class="temporary">
                                     14 Stylish and User-Friendly App Design
@@ -619,13 +627,19 @@
                             </div>
                         </li>
 
-                        <li>
+                        <li class="our-portfolio__card">
                             <img
                                 src="./assets/images/mobile/cashless-payment.webp"
                                 alt="Payment terminal and smartphone"
                             />
-                            <h3 class="subheading">Cashless Payment</h3>
-                            <p class="body-text">Marketing</p>
+                            <div class="our-portfolio__text-container">
+                                <h3
+                                    class="our-portfolio__subheading subheading"
+                                >
+                                    Cashless Payment
+                                </h3>
+                                <p class="body-text">Marketing</p>
+                            </div>
                             <div>
                                 <p class="temporary">
                                     14 Stylish and User-Friendly App Design
@@ -636,13 +650,19 @@
                             </div>
                         </li>
 
-                        <li>
+                        <li class="our-portfolio__card">
                             <img
                                 src="./assets/images/mobile/meditation-app.webp"
                                 alt="Laptop running meditation app"
                             />
-                            <h3 class="subheading">Meditation App</h3>
-                            <p class="body-text">App</p>
+                            <div class="our-portfolio__text-container">
+                                <h3
+                                    class="our-portfolio__subheading subheading"
+                                >
+                                    Meditation App
+                                </h3>
+                                <p class="body-text">App</p>
+                            </div>
                             <div>
                                 <p class="temporary">
                                     14 Stylish and User-Friendly App Design
@@ -653,13 +673,19 @@
                             </div>
                         </li>
 
-                        <li>
+                        <li class="our-portfolio__card">
                             <img
                                 src="./assets/images/mobile/taxi-service.webp"
                                 alt="Taxi driver"
                             />
-                            <h3 class="subheading">Taxi Service</h3>
-                            <p class="body-text">Marketing</p>
+                            <div class="our-portfolio__text-container">
+                                <h3
+                                    class="our-portfolio__subheading subheading"
+                                >
+                                    Taxi Service
+                                </h3>
+                                <p class="body-text">Marketing</p>
+                            </div>
                             <div>
                                 <p class="temporary">
                                     14 Stylish and User-Friendly App Design
@@ -670,13 +696,19 @@
                             </div>
                         </li>
 
-                        <li>
+                        <li class="our-portfolio__card">
                             <img
                                 src="./assets/images/mobile/screen-illustrations.webp"
                                 alt="Smartphone screen with illustrations"
                             />
-                            <h3 class="subheading">Screen Illustrations</h3>
-                            <p class="body-text">Design</p>
+                            <div class="our-portfolio__text-container">
+                                <h3
+                                    class="our-portfolio__subheading subheading"
+                                >
+                                    Screen Illustrations
+                                </h3>
+                                <p class="body-text">Design</p>
+                            </div>
                             <div>
                                 <p class="temporary">
                                     14 Stylish and User-Friendly App Design
@@ -687,13 +719,19 @@
                             </div>
                         </li>
 
-                        <li>
+                        <li class="our-portfolio__card">
                             <img
                                 src="./assets/images/mobile/online-courses.webp"
                                 alt="Smiling woman"
                             />
-                            <h3 class="subheading">Online Courses</h3>
-                            <p class="body-text">Marketing</p>
+                            <div class="our-portfolio__text-container">
+                                <h3
+                                    class="our-portfolio__subheading subheading"
+                                >
+                                    Online Courses
+                                </h3>
+                                <p class="body-text">Marketing</p>
+                            </div>
                             <div>
                                 <p class="temporary">
                                     14 Stylish and User-Friendly App Design
@@ -708,9 +746,9 @@
             </section>
         </main>
 
-        <footer>
+        <footer class="footer">
             <div class="container">
-                <div>
+                <div class="footer__motto-container">
                     <a href="" class="logo"
                         >Web<span class="logo--light">Studio</span></a
                     >
@@ -720,39 +758,55 @@
                     </p>
                 </div>
 
-                <div>
+                <div class="footer__social-media-container">
                     <p class="subheading subheading--footer">Social media</p>
-                    <ul>
-                        <li>
-                            <a href="">
-                                <svg height="24" width="24">
+                    <ul class="footer__social-media-list">
+                        <li class="footer__social-media-list-item">
+                            <a href="" class="footer__social-media-link">
+                                <svg
+                                    height="24"
+                                    width="24"
+                                    class="footer__social-media-icon"
+                                >
                                     <use
                                         href="./assets/svg/sprite.svg#instagram"
                                     ></use>
                                 </svg>
                             </a>
                         </li>
-                        <li>
-                            <a href="">
-                                <svg height="24" width="24">
+                        <li class="footer__social-media-list-item">
+                            <a href="" class="footer__social-media-link">
+                                <svg
+                                    height="24"
+                                    width="24"
+                                    class="footer__social-media-icon"
+                                >
                                     <use
                                         href="./assets/svg/sprite.svg#twitter"
                                     ></use>
                                 </svg>
                             </a>
                         </li>
-                        <li>
-                            <a href="">
-                                <svg height="24" width="24">
+                        <li class="footer__social-media-list-item">
+                            <a href="" class="footer__social-media-link">
+                                <svg
+                                    height="24"
+                                    width="24"
+                                    class="footer__social-media-icon"
+                                >
                                     <use
                                         href="./assets/svg/sprite.svg#facebook"
                                     ></use>
                                 </svg>
                             </a>
                         </li>
-                        <li>
-                            <a href="">
-                                <svg height="24" width="24">
+                        <li class="footer__social-media-list-item">
+                            <a href="" class="footer__social-media-link">
+                                <svg
+                                    height="24"
+                                    width="24"
+                                    class="footer__social-media-icon"
+                                >
                                     <use
                                         href="./assets/svg/sprite.svg#linkedin"
                                     ></use>
@@ -762,12 +816,20 @@
                     </ul>
                 </div>
 
-                <div>
+                <div class="footer__newsletter-container">
                     <p class="subheading subheading--footer">Subscribe</p>
-                    <form action="">
-                        <input type="text" />
-                        <button type="submit" class="subscribe-btn">
-                            Subscribe<svg height="24" width="24">
+                    <form action="" class="footer__newsletter">
+                        <input
+                            type="text"
+                            placeholder="E-mail"
+                            class="footer__newsletter-input"
+                        />
+                        <button type="submit" class="btn btn--footer">
+                            Subscribe<svg
+                                height="24"
+                                width="24"
+                                class="btn-icon"
+                            >
                                 <use
                                     href="./assets/svg/sprite.svg#paper-plane"
                                 ></use>
@@ -848,7 +910,7 @@
                         >
                     </div>
 
-                    <button type="submit" class="send-btn">Send</button>
+                    <button type="submit" class="btn">Send</button>
                 </form>
             </div>
         </div>
