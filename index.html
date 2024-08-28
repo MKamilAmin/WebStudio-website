@@ -29,16 +29,20 @@
                         </svg>
                     </a>
 
-                    <div class="temporary">
-                        <button>
-                            <svg height="8" width="8">
+                    <div class="mobile-menu__container temporary">
+                        <button class="mobile-menu__close-btn">
+                            <svg
+                                height="8"
+                                width="8"
+                                class="mobile-menu__close-icon"
+                            >
                                 <use
                                     href="./assets/svg/sprite.svg#close-icon"
                                 ></use>
                             </svg>
                         </button>
 
-                        <menu>
+                        <menu class="mobile-menu__nav-menu">
                             <li>
                                 <a href="" class="mobile-menu__nav-link"
                                     >Studio</a
@@ -57,7 +61,7 @@
                         </menu>
 
                         <address>
-                            <ul>
+                            <menu class="mobile-menu__address-menu">
                                 <li>
                                     <a
                                         href="tel:+110001111111"
@@ -72,40 +76,68 @@
                                         >info@devstudio.com</a
                                     >
                                 </li>
-                            </ul>
+                            </menu>
                         </address>
 
-                        <ul>
-                            <li>
-                                <a href="">
-                                    <svg height="24" width="24">
+                        <ul class="mobile-menu__social-media-list">
+                            <li class="mobile-menu__social-media-item">
+                                <a
+                                    href=""
+                                    class="mobile-menu__social-media-link"
+                                >
+                                    <svg
+                                        height="24"
+                                        width="24"
+                                        class="mobile-menu__social-media-icon"
+                                    >
                                         <use
                                             href="./assets/svg/sprite.svg#instagram"
                                         ></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li>
-                                <a href="">
-                                    <svg height="24" width="24">
+                            <li class="mobile-menu__social-media-item">
+                                <a
+                                    href=""
+                                    class="mobile-menu__social-media-link"
+                                >
+                                    <svg
+                                        height="24"
+                                        width="24"
+                                        class="mobile-menu__social-media-icon"
+                                    >
                                         <use
                                             href="./assets/svg/sprite.svg#twitter"
                                         ></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li>
-                                <a href="">
-                                    <svg height="24" width="24">
+                            <li class="mobile-menu__social-media-item">
+                                <a
+                                    href=""
+                                    class="mobile-menu__social-media-link"
+                                >
+                                    <svg
+                                        height="24"
+                                        width="24"
+                                        class="mobile-menu__social-media-icon"
+                                    >
                                         <use
                                             href="./assets/svg/sprite.svg#facebook"
                                         ></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li>
-                                <a href="">
-                                    <svg height="24" width="24">
+                            <li class="mobile-menu__social-media-item">
+                                <a
+                                    href=""
+                                    class="mobile-menu__social-media-link"
+                                >
+                                    <svg
+                                        height="24"
+                                        width="24"
+                                        class="mobile-menu__social-media-icon"
+                                    >
                                         <use
                                             href="./assets/svg/sprite.svg#linkedin"
                                         ></use>
@@ -840,10 +872,10 @@
             </div>
         </footer>
 
-        <div class="temporary">
-            <div>
-                <button>
-                    <svg height="8" width="8">
+        <div class="modal__backdrop temporary">
+            <div class="modal__container">
+                <button class="modal__close-btn">
+                    <svg height="8" width="8" class="modal__close-btn-icon">
                         <use href="./assets/svg/sprite.svg#close-icon"></use>
                     </svg>
                 </button>
@@ -852,65 +884,110 @@
                 </p>
 
                 <form action="">
-                    <div>
+                    <div class="modal__input-container">
                         <label for="name" class="modal__label">Name</label>
-                        <div>
-                            <svg height="24" width="18">
+                        <div class="modal__input-wrapper">
+                            <svg
+                                height="24"
+                                width="18"
+                                class="modal__input-icon"
+                            >
                                 <use
                                     href="./assets/svg/sprite.svg#person-icon"
                                 ></use>
                             </svg>
-                            <input type="text" id="name" required />
+                            <input
+                                type="text"
+                                id="name"
+                                class="modal__input"
+                                required
+                            />
                         </div>
                     </div>
 
-                    <div>
+                    <div class="modal__input-container">
                         <label for="phone" class="modal__label">Phone</label>
-                        <div>
-                            <svg height="24" width="18">
+                        <div class="modal__input-wrapper">
+                            <svg
+                                height="24"
+                                width="18"
+                                class="modal__input-icon"
+                            >
                                 <use
                                     href="./assets/svg/sprite.svg#phone-icon"
                                 ></use>
                             </svg>
-                            <input type="tel" id="phone" required />
+                            <input
+                                type="tel"
+                                id="phone"
+                                class="modal__input"
+                                required
+                            />
                         </div>
                     </div>
 
-                    <div>
+                    <div class="modal__input-container">
                         <label for="email" class="modal__label">Email</label>
-                        <div>
-                            <svg height="24" width="18">
+                        <div class="modal__input-wrapper">
+                            <svg
+                                height="24"
+                                width="18"
+                                class="modal__input-icon"
+                            >
                                 <use
                                     href="./assets/svg/sprite.svg#email-icon"
                                 ></use>
                             </svg>
-                            <input type="email" id="email" />
+                            <input
+                                type="email"
+                                id="email"
+                                class="modal__input"
+                            />
                         </div>
                     </div>
 
-                    <div>
+                    <div class="modal__input-container">
                         <label for="comment" class="modal__label"
                             >Comment</label
                         >
                         <div>
                             <textarea
                                 id="comment"
+                                rows="5"
                                 placeholder="Write your comment here..."
+                                class="modal__textarea"
                             ></textarea>
                         </div>
                     </div>
 
-                    <div>
-                        <input type="checkbox" id="checkbox" required />
-                        <label for="checkbox" class="modal__label"
-                            >I accept the terms and conditions of the
+                    <div class="modal__checkbox-container">
+                        <label for="checkbox" class="modal__checkbox-label"
+                            ><input
+                                type="checkbox"
+                                id="checkbox"
+                                class="visually-hidden"
+                                required />I accept the terms and conditions of
+                            the
+
                             <a href="" class="modal__label--privacy-policy-link"
                                 >Privacy Policy</a
-                            ></label
-                        >
+                            >
+                            <span class="modal__checkmark">
+                                <svg
+                                    height="8"
+                                    width="10"
+                                    class="modal__checkmark-icon"
+                                >
+                                    <use
+                                        href="./assets/svg/sprite.svg#checkmark"
+                                    ></use>
+                                </svg> </span
+                        ></label>
                     </div>
 
-                    <button type="submit" class="btn">Send</button>
+                    <button type="submit" class="modal__submit-btn btn">
+                        Send
+                    </button>
                 </form>
             </div>
         </div>

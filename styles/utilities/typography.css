@@ -106,6 +106,15 @@
     font-style: normal;
 }
 
+.footer__newsletter-input::placeholder {
+    font-weight: 300;
+    font-size: 0.75rem;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: white;
+    opacity: 0.6;
+}
+
 .modal__heading {
     font-weight: 500;
     font-size: 1rem;
@@ -115,7 +124,8 @@
     color: var(--clr-headings);
 }
 
-.modal__label {
+.modal__label,
+.modal__checkbox-label {
     font-weight: 400;
     font-size: 0.75rem;
     line-height: 1.16667;
@@ -130,11 +140,18 @@
     color: #4d5ae5;
 }
 
-.footer__newsletter-input::placeholder {
-    font-weight: 300;
+.modal__input,
+.modal__textarea {
+    font-family: var(--main-font);
+    font-size: 1rem;
+    color: #2e2f42;
+}
+
+.modal__textarea::placeholder {
+    color: rgba(142, 143, 153, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-size: 0.75rem;
-    line-height: 2;
+    line-height: 1.16667;
     letter-spacing: 0.04em;
-    color: white;
-    opacity: 0.6;
 }
