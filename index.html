@@ -16,12 +16,12 @@
 
     <body>
         <header>
-            <div class="container">
+            <div class="container container--header">
                 <nav class="nav">
                     <a href="#" class="logo"
                         >Web<span class="logo--dark">Studio</span></a
                     >
-                    <a href="" class="menu-icon">
+                    <a href="" class="menu-toggle">
                         <svg height="24" width="24">
                             <use
                                 href="./assets/svg/sprite.svg#mobile-menu-toggle"
@@ -147,29 +147,31 @@
                         </ul>
                     </div>
 
-                    <div class="temporary">
-                        <menu>
-                            <li><a href="">Studio</a></li>
-                            <li><a href="">Portfolio</a></li>
-                            <li><a href="">Constacts</a></li>
-                        </menu>
-
-                        <address>
-                            <ul>
-                                <li>
-                                    <a href="mailto:info@devstudio.com"
-                                        >info@devstudio.com</a
-                                    >
-                                </li>
-                                <li>
-                                    <a href="tel:+110001111111"
-                                        >+11 (000) 111-11-11</a
-                                    >
-                                </li>
-                            </ul>
-                        </address>
-                    </div>
+                    <menu class="nav__menu">
+                        <li><a href="" class="menu__nav-link">Studio</a></li>
+                        <li><a href="" class="menu__nav-link">Portfolio</a></li>
+                        <li><a href="" class="menu__nav-link">Constacts</a></li>
+                    </menu>
                 </nav>
+
+                <address class="nav__address">
+                    <ul class="nav__address-list">
+                        <li>
+                            <a
+                                href="mailto:info@devstudio.com"
+                                class="menu__address-link"
+                                >info@devstudio.com</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="tel:+110001111111"
+                                class="menu__address-link"
+                                >+11 (000) 111-11-11</a
+                            >
+                        </li>
+                    </ul>
+                </address>
             </div>
         </header>
 
@@ -187,7 +189,7 @@
                 <div class="container">
                     <h2 class="visually-hidden">Our Mission</h2>
                     <ul class="our-mission__list">
-                        <li>
+                        <li class="our-mission__list-item-1">
                             <div class="temporary">
                                 <svg height="64" width="64">
                                     <use
@@ -206,7 +208,7 @@
                                 solution.
                             </p>
                         </li>
-                        <li>
+                        <li class="our-mission__list-item-2">
                             <div class="temporary">
                                 <svg height="64" width="64">
                                     <use
@@ -225,7 +227,7 @@
                                 time.
                             </p>
                         </li>
-                        <li>
+                        <li class="our-mission__list-item-3">
                             <div class="temporary">
                                 <svg height="64" width="64">
                                     <use
@@ -244,7 +246,7 @@
                                 minimize risk.
                             </p>
                         </li>
-                        <li>
+                        <li class="our-mission__list-item-4">
                             <div class="temporary">
                                 <svg height="64" width="64">
                                     <use
@@ -663,7 +665,7 @@
                         <li class="our-portfolio__card">
                             <picture>
                                 <source
-                                    media="(min-width: 1200px)"
+                                    media="(min-width: 1158px)"
                                     srcset="
                                         ./assets/images/desktop/banking-app.webp,
                                         ./assets/images/desktop/banking-app2x.webp 2x
@@ -708,7 +710,7 @@
                         <li class="our-portfolio__card">
                             <picture>
                                 <source
-                                    media="(min-width: 1200px)"
+                                    media="(min-width: 1158px)"
                                     srcset="
                                         ./assets/images/desktop/cashless-payment.webp,
                                         ./assets/images/desktop/cashless-payment2x.webp 2x
@@ -753,7 +755,7 @@
                         <li class="our-portfolio__card">
                             <picture>
                                 <source
-                                    media="(min-width: 1200px)"
+                                    media="(min-width: 1158px)"
                                     srcset="
                                         ./assets/images/desktop/meditation-app.webp,
                                         ./assets/images/desktop/meditation-app2x.webp 2x
@@ -798,7 +800,7 @@
                         <li class="our-portfolio__card">
                             <picture>
                                 <source
-                                    media="(min-width: 1200px)"
+                                    media="(min-width: 1158px)"
                                     srcset="
                                         ./assets/images/desktop/taxi-service.webp,
                                         ./assets/images/desktop/taxi-service2x.webp 2x
@@ -843,7 +845,7 @@
                         <li class="our-portfolio__card">
                             <picture>
                                 <source
-                                    media="(min-width: 1200px)"
+                                    media="(min-width: 1158px)"
                                     srcset="
                                         ./assets/images/desktop/screen-illustrations.webp,
                                         ./assets/images/desktop/screen-illustrations2x.webp 2x
@@ -888,7 +890,7 @@
                         <li class="our-portfolio__card">
                             <picture>
                                 <source
-                                    media="(min-width: 1200px)"
+                                    media="(min-width: 1158px)"
                                     srcset="
                                         ./assets/images/desktop/online-courses.webp,
                                         ./assets/images/desktop/online-courses2x.webp 2x

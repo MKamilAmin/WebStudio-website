@@ -69,3 +69,27 @@
     width: 100%;
     /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
 }
+
+@media (768px <= width < 1158px) {
+    .footer .container {
+        gap: 72px 24px;
+        align-items: baseline;
+        max-width: 530px;
+    }
+
+    .footer__motto-container {
+        align-items: flex-start;
+        max-width: 264px;
+    }
+
+    .footer__social-media-container p,
+    .footer__newsletter-container p {
+        text-align: start;
+    }
+
+    .footer__newsletter {
+        flex-direction: row;
+        gap: 24px;
+        max-width: 453px;
+    }
+}

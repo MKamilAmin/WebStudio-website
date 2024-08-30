@@ -42,7 +42,7 @@
     }
 }
 
-@media (768px <= width < 1200px) and (resolution < 192dpi) {
+@media (768px <= width < 1158px) and (resolution < 192dpi) {
     .hero-section {
         background-image: linear-gradient(
                 rgba(46, 47, 66, 0.7),
@@ -52,7 +52,7 @@
     }
 }
 
-@media (768px <= width < 1200px) and (resolution >= 192dpi) {
+@media (768px <= width < 1158px) and (resolution >= 192dpi) {
     .hero-section {
         background-image: linear-gradient(
                 rgba(46, 47, 66, 0.7),
@@ -62,7 +62,7 @@
     }
 }
 
-@media (width >= 1200px) and (resolution < 192dpi) {
+@media (width >= 1158px) and (resolution < 192dpi) {
     .hero-section {
         background-image: linear-gradient(
                 rgba(46, 47, 66, 0.7),
@@ -72,12 +72,23 @@
     }
 }
 
-@media (width >= 1200px) and (resolution >= 192dpi) {
+@media (width >= 1158px) and (resolution >= 192dpi) {
     .hero-section {
         background-image: linear-gradient(
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)
             ),
             url(../../assets/images/desktop/hero-bg2x.webp);
+    }
+}
+
+@media (768px <= width < 1158px) {
+    .hero-section .container {
+        padding: 112px 0;
+        gap: 36px;
+    }
+
+    .hero-title {
+        max-width: 31rem;
     }
 }

@@ -50,3 +50,9 @@
 .our-team__social-media-icon {
     fill: #f4f4fd;
 }
+
+@media (768px <= width < 1158px) {
+    .our-team__card-list {
+        gap: 64px 24px;
+    }
+}

@@ -26,3 +26,9 @@
 .our-portfolio__subheading {
     margin-bottom: 8px;
 }
+
+@media (768px <= width < 1158px) {
+    .our-portfolio__card-list {
+        gap: 72px 24px;
+    }
+}

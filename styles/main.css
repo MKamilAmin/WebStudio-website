@@ -32,6 +32,12 @@ body {
     width: 1px;
 }
 
+@media (768px <= width < 1158px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
 /* ---------!!!!!! TEMPORARY STYLES. REMOVE BEFORE FINAL RELEASE !!!!!!!------- */
 .temporary {
     display: none;
