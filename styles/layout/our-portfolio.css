@@ -32,3 +32,13 @@
         gap: 72px 24px;
     }
 }
+
+@media (width >= 1158px) {
+    .our-portfolio {
+        padding: 120px 0;
+    }
+
+    .our-portfolio__card-list {
+        gap: 48px 23px;
+    }
+}

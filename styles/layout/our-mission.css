@@ -2,6 +2,10 @@
     padding: 96px 0;
 }
 
+.our-mission__icon-container {
+    display: none;
+}
+
 .our-mission__list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -49,5 +53,43 @@
 
     .our-mission__list-item-4 {
         grid-area: 3 / 2 / 5 / 3;
+    }
+}
+
+@media (width >= 1158px) {
+    .our-mission {
+        padding: 120px 0;
+    }
+
+    .our-mission__icon-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #8e8f99;
+        border-radius: 4px;
+        background-color: #f4f4fd;
+        min-height: 112px;
+        margin-bottom: 8px;
+    }
+
+    .our-mission__list {
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 23px;
+    }
+
+    .our-mission__list-item-1 {
+        grid-area: 1 / 1 / 5 / 2;
+    }
+
+    .our-mission__list-item-2 {
+        grid-area: 1 / 2 / 5 / 3;
+    }
+
+    .our-mission__list-item-3 {
+        grid-area: 1 / 3 / 5 / 4;
+    }
+
+    .our-mission__list-item-4 {
+        grid-area: 1 / 4 / 5 / 5;
     }
 }

@@ -18,7 +18,7 @@
     border-radius: 4px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
         0 2px 1px 0 rgba(0, 0, 0, 0.2);
-    max-width: 288px;
+    width: 288px;
 }
 
 .modal__close-btn {
@@ -123,7 +123,14 @@
 
 @media (768px <= width < 1158px) {
     .modal__container {
-        max-width: 408px;
+        width: 408px;
+        padding: 72px 24px 24px;
+    }
+}
+
+@media (width >= 1158px) {
+    .modal__container {
+        width: 408px;
         padding: 72px 24px 24px;
     }
 }

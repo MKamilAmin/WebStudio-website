@@ -179,3 +179,31 @@
         line-height: 1.07143;
     }
 }
+
+@media (width >= 1158px) {
+    .hero-title {
+        font-size: 3.5rem;
+        line-height: 1.07143;
+    }
+
+    .subheading--our-mission {
+        font-weight: 500;
+        font-size: 1.25rem;
+        line-height: 1.2;
+        text-align: start;
+    }
+
+    .subheading--footer {
+        text-align: start;
+    }
+
+    .body-text--our-mission {
+        font-weight: 400;
+    }
+
+    .menu__address-link {
+        font-size: 1rem;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+}

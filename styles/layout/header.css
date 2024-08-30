@@ -119,3 +119,41 @@
         display: block;
     }
 }
+
+@media (width >= 1158px) {
+    .container--header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .nav {
+        justify-content: flex-start;
+        padding: 24px 0;
+        gap: 76px;
+    }
+
+    .nav__menu {
+        display: flex;
+        gap: 40px;
+    }
+
+    .nav__address {
+        display: block;
+        padding: 24px 0;
+    }
+
+    .nav__address-list {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .menu__nav-link,
+    .menu__address-link {
+        display: block;
+    }
+}

@@ -38,6 +38,12 @@ body {
     }
 }
 
+@media (width >= 1158px) {
+    .container {
+        max-width: 1158px;
+    }
+}
+
 /* ---------!!!!!! TEMPORARY STYLES. REMOVE BEFORE FINAL RELEASE !!!!!!!------- */
 .temporary {
     display: none;

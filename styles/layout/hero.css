@@ -92,3 +92,14 @@
         max-width: 31rem;
     }
 }
+
+@media (width >= 1158px) {
+    .hero-section .container {
+        padding: 188px 0;
+        gap: 48px;
+    }
+
+    .hero-title {
+        max-width: 31rem;
+    }
+}

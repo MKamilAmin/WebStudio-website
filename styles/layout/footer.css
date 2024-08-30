@@ -93,3 +93,25 @@
         max-width: 453px;
     }
 }
+
+@media (width >= 1158px) {
+    .footer {
+        padding: 100px 0;
+    }
+
+    .footer .container {
+        flex-wrap: nowrap;
+        gap: 80px;
+    }
+
+    .footer__motto-container {
+        align-items: flex-start;
+        max-width: 264px;
+        margin-right: 40px;
+    }
+
+    .footer__newsletter {
+        flex-direction: row;
+        gap: 24px;
+    }
+}
