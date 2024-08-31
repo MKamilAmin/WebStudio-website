@@ -123,6 +123,13 @@
     font-style: normal;
 }
 
+.our-portfolio__card-hover-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
 .footer__newsletter-input::placeholder {
     font-weight: 300;
     font-size: 0.75rem;

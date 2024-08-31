@@ -11,6 +11,7 @@
 @import url(./layout/modal.css);
 
 @import url(./components/buttons.css);
+@import url(./utilities/transitions-and-animations.css);
 
 body {
     font-family: var(--main-font);
