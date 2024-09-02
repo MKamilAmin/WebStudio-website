@@ -14,6 +14,10 @@
     display: flex;
 }
 
+.menu-toggle-icon {
+    fill: #2e2f42;
+}
+
 .mobile-menu__container {
     position: fixed;
     top: 0;
@@ -22,7 +26,11 @@
     min-height: 100%;
     background-color: white;
     padding: 72px 16px 40px;
-    /* transform: translate(101%); */
+    display: none;
+}
+
+.mobile-menu__container.is-open {
+    display: block;
 }
 
 .mobile-menu__close-btn {

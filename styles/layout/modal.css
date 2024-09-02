@@ -9,6 +9,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
+}
+
+.modal__backdrop.is-open {
+    display: block;
 }
 
 .modal__container {

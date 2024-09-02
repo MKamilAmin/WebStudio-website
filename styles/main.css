@@ -44,8 +44,3 @@ body {
         max-width: 1158px;
     }
 }
-
-/* ---------!!!!!! TEMPORARY STYLES. REMOVE BEFORE FINAL RELEASE !!!!!!!------- */
-.temporary {
-    display: none;
-}
