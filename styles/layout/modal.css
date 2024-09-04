@@ -13,7 +13,7 @@
 }
 
 .modal__backdrop.is-open {
-    display: block;
+    display: flex;
 }
 
 .modal__container {

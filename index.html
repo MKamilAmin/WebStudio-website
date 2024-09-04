@@ -12,6 +12,7 @@
         <title>WebStudio</title>
         <link rel="icon" type="image/x-icon" href="./assets/svg/favicon.svg" />
         <link rel="stylesheet" href="./styles/main.css" />
+        <script type="module" src="./js/main.js" defer></script>
     </head>
 
     <body>
@@ -21,7 +22,7 @@
                     <a href="#" class="logo"
                         >Web<span class="logo--dark">Studio</span></a
                     >
-                    <a href="" class="menu-toggle">
+                    <a href="#" class="menu-toggle js-menu-toggle">
                         <svg height="24" width="24" class="menu-toggle-icon">
                             <use
                                 href="./assets/svg/sprite.svg#mobile-menu-toggle"
@@ -29,8 +30,10 @@
                         </svg>
                     </a>
 
-                    <div class="mobile-menu__container">
-                        <button class="mobile-menu__close-btn">
+                    <div class="mobile-menu__container js-mobile-menu">
+                        <button
+                            class="mobile-menu__close-btn js-mobile-menu-close-btn"
+                        >
                             <svg
                                 height="8"
                                 width="8"
@@ -189,7 +192,7 @@
                     <h1 class="hero-title">
                         Effective Solutions for Your Business
                     </h1>
-                    <button class="btn">Order service</button>
+                    <button class="btn js-order-btn">Order service</button>
                 </div>
             </section>
 
@@ -1072,7 +1075,7 @@
 
         <div class="modal__backdrop">
             <div class="modal__container">
-                <button class="modal__close-btn">
+                <button class="modal__close-btn js-modal-close-btn">
                     <svg height="8" width="8" class="modal__close-btn-icon">
                         <use href="./assets/svg/sprite.svg#close-icon"></use>
                     </svg>
