@@ -9,11 +9,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    display: none;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .modal__backdrop.is-open {
-    display: flex;
+    opacity: 1;
+    visibility: visible;
 }
 
 .modal__container {

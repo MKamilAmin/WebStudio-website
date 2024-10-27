@@ -26,11 +26,7 @@
     min-height: 100%;
     background-color: white;
     padding: 72px 16px 40px;
-    display: none;
-}
-
-.mobile-menu__container.is-open {
-    display: block;
+    transform: translateX(101%);
 }
 
 .mobile-menu__close-btn {

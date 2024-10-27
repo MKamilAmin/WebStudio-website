@@ -7,8 +7,10 @@ mobileMenuCloseBtn.addEventListener("click", closeMobileMenu);
 
 function openMobileMenu() {
     mobileMenu.classList.add("is-open");
+    mobileMenu.setAttribute("aria-hidden", "false");
 }
 
 function closeMobileMenu() {
     mobileMenu.classList.remove("is-open");
+    mobileMenu.setAttribute("aria-hidden", "true");
 }

@@ -10,6 +10,14 @@
     color: var(--clr-hover);
 }
 
+.mobile-menu__container {
+    transition: transform 250ms cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+.mobile-menu__container.is-open {
+    transform: translateX(0%);
+}
+
 .our-team__social-media-link:hover,
 .our-team__social-media-link:focus,
 .btn:hover,
@@ -51,6 +59,10 @@
 
 .our-portfolio__card-hover-text {
     transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal__backdrop {
+    transition: 200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__close-btn:hover,

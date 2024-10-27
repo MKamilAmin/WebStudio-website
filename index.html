@@ -30,7 +30,10 @@
                         </svg>
                     </a>
 
-                    <div class="mobile-menu__container js-mobile-menu">
+                    <div
+                        class="mobile-menu__container js-mobile-menu"
+                        aria-hidden="true"
+                    >
                         <button
                             class="mobile-menu__close-btn js-mobile-menu-close-btn"
                         >
@@ -1073,7 +1076,7 @@
             </div>
         </footer>
 
-        <div class="modal__backdrop">
+        <div class="modal__backdrop js-modal__backdrop">
             <div class="modal__container">
                 <button class="modal__close-btn js-modal-close-btn">
                     <svg height="8" width="8" class="modal__close-btn-icon">
