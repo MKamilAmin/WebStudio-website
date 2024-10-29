@@ -1,15 +1,19 @@
-const modal = document.querySelector(".js-modal__backdrop");
+const modalBackdrop = document.querySelector(".js-modal__backdrop");
 const orderBtn = document.querySelector(".js-order-btn");
 const modalCloseBtn = document.querySelector(".js-modal-close-btn");
+const modal = document.querySelector(".modal__container");
 
 orderBtn.addEventListener("click", openModal);
 modalCloseBtn.addEventListener("click", closeModal);
-modal.addEventListener("click", closeModal);
+modalBackdrop.addEventListener("click", closeModal);
+modal.addEventListener("click", (evt) => {
+    evt.stopPropagation();
+});
 
 function openModal() {
-    modal.classList.add("is-open");
+    modalBackdrop.classList.add("is-open");
 }
 
 function closeModal() {
-    modal.classList.remove("is-open");
+    modalBackdrop.classList.remove("is-open");
 }
